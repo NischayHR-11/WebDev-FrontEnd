@@ -28,9 +28,11 @@ body{
 .mainbar{
 
     border-radius: 1rem;
-    flex: 1;
+    height: 100vh;
+    width: 75%;
     background-color:#088395;
-    overflow: auto;
+    overflow-y: auto;
+    padding-bottom: 5rem;
 }
 
 .user{
@@ -110,7 +112,6 @@ body{
     height: 6rem;
     background-color:#37B7C3;
     border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
 }
 
 input {
@@ -141,29 +142,30 @@ input {
 .container{
 
     width:100%;
-    height:50%;
+    height:auto;
     background-color:transparent;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap:wrap ;
     padding-left: 1rem;
     padding-right: 2rem;
     margin-right: 1rem;
+    margin-bottom: 8rem;
+    margin-top: 5rem;
 }
 
 .box{
 
     width :20%;
     border-radius: 1rem;
-    height: 60%;
+    height: 22rem;
     background-color: #b0e0e6b4;
     margin-right: .7rem;
-    margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: .7rem;
+    padding: .5rem;
     font-size: x-large;
 }
 
@@ -179,5 +181,17 @@ h1{
 
     margin-top: 3rem;
     margin-left: 3rem;
-    margin-bottom: 2rem;
+    color: #FFFFFF;
 }
+
+h1:hover{
+
+    text-decoration: underline;
+}
+
+hr{
+
+    width: 80%;
+    margin-bottom: 5rem;
+}
+
