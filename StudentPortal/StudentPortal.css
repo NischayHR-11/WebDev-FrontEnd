@@ -2,7 +2,7 @@ body{
 
     margin: 0px;
     overflow: hidden;
-    background-color:#071952;
+    background-color:lightblue;
     color: #fff;
     font-family: 'Montserrat',sans-serif;
 }
@@ -20,11 +20,11 @@ body{
     height: 100vh;
     width:25%;
     background-color:#088395;
-    margin-right: 10px;
-    padding: 10px;
+    margin-right: .62rem;
+    padding: .62rem;
     color: white;
 }
-
+  
 .mainbar{
 
     border-radius: 1rem;
@@ -47,9 +47,9 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-size: 18px;
-    padding-bottom: 5px;
-    padding-top: 10px;
+    font-size: 1rem;
+    padding-bottom: .31rem;
+    padding-top: .62rem;
 }
 
 .user img {
@@ -63,8 +63,8 @@ body{
 
     text-decoration: none;
     color: black;
-    margin-bottom: 15px;
-    font-size: 15px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
 }
 
 .user a:hover{
@@ -84,7 +84,7 @@ body{
     width: 100%;
     display: flex;
     align-items: center;
-    font-size: 18px;
+    font-size: 1.1rem;
 
 }
 
@@ -122,7 +122,7 @@ input {
     margin-right: 10px;
     border-color: #071952;
     border-width: 1px;
-    padding-left: 10px;
+    padding-left: 1rem;
     font-size:1rem;
 }
 
@@ -142,17 +142,15 @@ input {
 .container{
 
     width:100%;
-    height:auto;
+    height:22rem;
     background-color:transparent;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap:wrap ;
-    padding-left: 1rem;
-    padding-right: 2rem;
     margin-right: 1rem;
     margin-bottom: 8rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 .box{
@@ -162,11 +160,17 @@ input {
     height: 22rem;
     background-color: #b0e0e6b4;
     margin-right: .7rem;
+    margin-bottom: .6rem ;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: .5rem;
     font-size: x-large;
+}
+
+.box p{
+
+    margin-bottom: 1rem;
 }
 
 .box img {
@@ -194,4 +198,140 @@ hr{
     width: 80%;
     margin-bottom: 5rem;
 }
+
+@media(min-width : 1050px) and (max-width:1300px){
+
+
+    .box p {
+
+        font-size: 15.5px;
+    }
+}
+
+@media (min-width :700px) and (max-width: 1050px){
+    :root{
+
+        font-size: 16px;
+    }
+    
+    body {
+      background-color: lightblue;
+    }
+
+    body{
+        font-size: 10px !important;
+    }
+
+    .box img {
+
+        margin-bottom: 1rem;
+ 
+    }
+
+    .box p{
+
+        font-size: 18px;
+    }
+
+    h1{
+      
+        font-size: 20px;
+    }
+
+    .headings p {
+
+        font-size: 16px;
+        margin-left: 1rem;
+        opacity: 0.7;
+    
+    }
+
+    .box{
+
+        font-size: 14px;
+        padding: .25rem!important;
+        width:33%;
+        height: 20rem !important;
+        margin-bottom: 1.2rem;
+    }
+
+    .container{
+
+        margin-bottom: 3rem !important;
+        margin-top:1.5rem ;
+        height: auto !important;
+    }
+    
+}
+
+@media (min-width: 350px) and (max-width: 700px) {
+
+    :root{
+
+        font-size: 15px;
+    }
+    
+
+    .box p {
+
+        font-size: 12px !important;
+        
+    }
+
+    h1{
+      
+        font-size: 16px;
+        margin-left: 2rem;
+    }
+
+    .sidebar{
+    margin-right: .4rem;
+    }
+    .user img {
+
+        margin-top: 1rem;
+        height: 5rem;
+        width: 5rem;
+    }
+    
+
+    .headings p {
+
+        font-size: 14px;
+        margin-left: 1rem;
+        opacity: 0.7; 
+    }
+
+    .headings{
+
+        padding-right: .25rem;
+        margin-right: 1rem;
+    }
+
+    .mainbox{
+
+        padding:2px;
+    }
+    
+    .box{
+
+        font-size: 14px;
+        padding: .25rem!important;
+        width:35%;
+        height: 13rem !important;
+        margin-bottom: 1.5rem;
+    }
+
+    .container{
+
+        margin-bottom: 3rem !important;
+        margin-top:2rem ;
+        height: auto !important;
+    }
+
+    hr{
+        margin-bottom: 100px;
+    }
+  }
+
 
