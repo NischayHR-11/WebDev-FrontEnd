@@ -206,13 +206,22 @@ hr{
 
         font-size: 15.5px;
     }
-    
+
+    .sidebar{
+
+        margin-right: .2rem !important;
+    }
 }
 
 @media (min-width :700px) and (max-width: 1050px){
     :root{
 
         font-size: 16px;
+    }
+
+    .sidebar{
+
+        margin-right: .1rem;
     }
     
     body {
@@ -287,7 +296,7 @@ hr{
 
     .sidebar{
 
-        margin-right: .4rem;
+        margin-right: .25rem;
     }
 
     .user img {
