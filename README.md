@@ -18,13 +18,12 @@ This repository contains a collection of frontend web development projects and e
 
 ## Technologies Used
 
-The following technologies are utilized in this repository:
+The following technologies are utilized in this repository:<br><br>
 
-![Project 1 Logo](images/Logo.png)  
-**Project 1**: A project focused on building a modern educational website.
-
-![Project 2 Logo](images/logo.png)  
-**Project 2**: A project where we create a Spotify-like music player interface.
+<img src="StudentPortal/Logo.png" alt="Project 1 Logo" width="150" height="150">
+Project 1 : A project focused on building a modern educational website.<br><br>
+<img src="Spotify/Assets/logo.png" alt="Project 1 Logo" width="150" height="150">
+Project 2 : A project where we create a Spotify-like music player interface.<br><br>
 
 ## Installation
 
