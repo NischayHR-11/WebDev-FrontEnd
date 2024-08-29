@@ -4,17 +4,12 @@ Welcome to the WebDev-FrontEnd repository! This project is focused on building a
 
 ## Table of Contents
 
-- [Introduction](#introduction)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
-
-## Introduction
-
-This repository contains a collection of frontend web development projects and exercises. Each project is designed to help you understand and apply various web development techniques, from basic HTML and CSS to more advanced JavaScript functionalities.
 
 ## Technologies Used
 
